@@ -1,4 +1,7 @@
 const app = Vue.createApp({
+  template: '<h1>Hello World</h1>'
+
+/*
   data() {
     return {
       firstName: 'John',
@@ -22,6 +25,8 @@ const app = Vue.createApp({
       this.picture = results[0].picture.large
     },
   },
+  */
 })
 
 app.mount('#app')
+
