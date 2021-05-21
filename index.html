@@ -18,7 +18,7 @@
         />
         <h1>{{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
-        <button v-on:click="getUser()" 
+        <button @click="getUser()" 
         :class="gender">Get Random User</button>
       </div>
       
